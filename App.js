@@ -11,7 +11,7 @@ import {
   Slider,
 } from 'react-native';
 
-import laugh from './assets/laughingman.png';
+import laugh from './assets/laughingman.gif';
  
 const PATTERN = [100, 100, 200, 300 ];
 
