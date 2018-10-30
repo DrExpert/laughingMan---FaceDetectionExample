@@ -100,6 +100,7 @@ const Face = ({ bounds, rollAngle, yawAngle }) => (
   <View>
      <Image
         source={laugh}
+	resizeMode='contain'
         transform={[
           { perspective: 600 }, 
           { rotateZ: `${rollAngle.toFixed(0)}deg` },
